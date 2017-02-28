@@ -1,0 +1,51 @@
+/* reset css */
+
+*{margin: 0;padding: 0;}
+body{background: #0E0E0E;}
+ul{list-style: none;}
+
+/* index css */
+.left{float: left;}
+.right{float: right;}
+.clear{}
+.wrap{width: 1280px;margin: 0 auto;padding-bottom: 10px;background: #DEDEDE;}
+
+/* header */
+.wrap .header{height: 60px;background: #333;}
+.wrap .header h1{padding-left: 80px;color: #fff;line-height: 60px;background: url(http://om0o8l817.bkt.clouddn.com/ppb.png) 10px no-repeat;background-size: 60px 60px;}
+.wrap .header ul li{float: left;}
+.wrap .header li a{display: block;width: 65px;padding: 0 10px;line-height: 60px;color: #fff;text-align: center;}
+
+/* 文章 */
+article{width: 1200px;margin: 22px auto;padding: 20px 20px 50px;background: #fff;box-shadow: 2px 2px #9F9F9F;}
+article header{margin: 10px 0;}
+article header h2{line-height: 50px;}
+article header h3{line-height: 40px;}
+article time{margin-left: 50px;}
+article address{float: left;}
+article p{text-indent: 2em;line-height: 30px;}
+article img{margin: 10px;}
+.article3 h2{line-height: 100px;}
+.article3 dl{margin-left: 40px;}
+.article3 figure{display: inline-block;margin-bottom: 20px;border: 1px solid #aad;}
+.article3 figure figcaption{width: 100%;text-align: center;line-height: 50px;}
+.article4 ol{margin-left: 40px;}
+.article4 p{text-indent: 0;}
+.article4 table{width: 100%;text-align: center;border: solid #ccc;border-width: 1px 0 0 1px;}
+.article4 td{border: solid #ccc;border-width:0 1px 1px 0;}
+.article4 table tr:first-child{background: #333;color: #fff;}
+.article4 table tr:last-child{background: #ccc;color: #fff;}
+
+/* 侧栏 */
+aside{width: 1200px;margin: 22px auto;padding: 20px 20px 50px;background: #fff;box-shadow: 2px 2px #9F9F9F;font-size: 14px;}
+aside hgroup h2{margin-left: 20px;line-height: 30px;position: relative;font-size: 20px;}
+aside h2 i{display: inline-block;width: 5px;height: 36px;background: #cdcdcd;position: absolute;left: -10px;top: 50%;margin-top: -18px;}
+aside form{line-height: 35px;}
+aside form .info{font-size: 12px;color: #99A3A5;}
+aside .login{text-align: right;margin-right: 50%;}
+aside .informa{text-align: left;margin-left: 30%;}
+aside .describe{position: relative;}
+.describe span{position: absolute;top: -12px;left: -30px;}
+aside textarea{margin-left: 46px;}
+aside button{width: 100%;background: #3355D0;color: #fff;border-radius: 10px;line-height: 40px;border: none;}
+footer{color: #fff;text-align: center;line-height: 80px;}
