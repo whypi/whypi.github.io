@@ -1,0 +1,9 @@
+body{padding: 20px;}
+.wrap{padding: 20px;background: #eee;float: left;border: 1px solid #999;}
+.team{width: 200px;float: left;border: 1px solid #999;}
+.team .logo{width: 80px;height: 80px;margin: 20px;}
+.team .team-name{float: right;margin:-106px 20px 0 0;}
+.member{float: right;width: 120px;}
+.member ul{padding: 20px 20px 0 20px;border: 1px solid #999;list-style: none;}
+.member img{width: 80px;height: 80px;margin-bottom: 20px;border: 1px solid #999;}
+.main{margin: 0 160px 0 240px;border: 1px solid #999;padding: 20px;}
