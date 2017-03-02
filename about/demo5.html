@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>零基础html编码(五)</title>
+	<link rel="stylesheet" href="demo5.css">
+</head>
+<body>
+
+<div class="wrap">
+
+	<!-- header部分 -->
+	<header class="header">
+		<h1 class="left">mrpi的小小天地</h1>
+		<nav>
+			<ul class="right">
+				<li><a href="">首页</a></li>
+				<li><a href="">关于我</a></li>
+				<li><a href="">青言轻语</a></li>
+				<li><a href="">成长之路</a></li>
+				<li><a href="">联系我</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<!-- 侧栏 -->
+	<aside>
+		<hgroup>
+				<h2><i></i>这个是侧栏de标题哦</h2>
+				<!-- <h3>侧栏注册窗口标题</h3> -->
+		</hgroup>
+		<form action="">
+			<div class="login">
+				<label for="email">请输入邮箱地址：</label><input id="email" type="text" placeholder="邮箱地址">
+				<p class="info">邮箱地址请按要求格式输入</p>
+				<label for="pw1">请输入密码：</label><input id="pw1" type="text" placeholder="password"><br>
+				<label for="pw2">请重复输入密码：</label><input id="pw2" type="text" placeholder="password">
+				<p class="info">密码请为6-16位数字</p>
+			</div>
+			
+
+			<div class="informa">
+				性别：<input id="male" name="sex" type="radio"><label for="male">男</label>&nbsp;<input id="female" name="sex" type="radio"><label for="female">女</label><br>
+				城市：
+				<select name="city" id="" >
+					<option value="beijing">北京</option>
+					<option value="hangzhou" selected="selected">杭州</option>
+					<option value="shanghai">上海</option>
+					<option value="wuhan">武汉</option>
+				</select><br>
+				爱好：
+				<input id="sport" type="checkbox" name="sport" value="sport"><label for="sport">运动</label>
+				<input id="read" type="checkbox" name="read" value="read"><label for="read">看书</label>
+				<!-- <input id="sleep" type="checkbox" name="sleep" value="sleep"><label for="sleep">睡觉</label> -->
+				<input id="code" type="checkbox" name="code" value="code"><label for="code">敲代码</label><br>
+				<div class="describe">
+					<span>个人描述：</span>
+					<textarea name="" id="" cols="20" rows="8" placeholder="这是一个多行输入框，输入你的个人描述"></textarea>
+				</div>
+			</div>
+			
+			<button>submit</button>
+		</form>
+	</aside>
+
+	<!-- 文章一 -->
+	<article class="article1">
+		<header>
+			<hgroup>
+				<h2>mrpi的打怪升级之旅</h2>
+				<h3>小试牛刀</h3>
+			</hgroup>
+			<address>Written by <a href="#">MrPi</a></address>
+			<time datetime="2017-02-17">2017.2.27</time>
+		</header>
+		<p>2016年，错过了百度前端技术学院的报名，很遗憾。今年，2017，说什么都不能再留有遗憾了！</p>
+		<p>虽然自己不再是萌新，不再是一张白纸，但还是too young too simple。对知识也是只知半解，这种停步不前的状态，很危险，也借咱们的这个学院任务沉淀沉淀。学习，忌浮忌躁~<br>
+		百度前端技术学院是一个为大学生创办的免费的前端技术实践、分享、交流平台。由百度校园招聘组、百度校园品牌部、百度前端技术部以及多个百度的前端团队联合创办。学院组织了一批百度在职工程师，精心编写了数十个实践编码任务，将技术知识点系统有机地串联在各个充满趣味与挑战的任务中，同学们通过实际地编码练习来掌握知识，再辅以互相评价、学习笔记等方式，加深对于学习内容的理解。在过去的三年中，
+		<a href="http://ife.baidu.com/" target="_blank">百度前端技术学院http://ife.baidu.com/</a>累积吸引了上万名同学参加，并且有数十名同学在学习后，顺利加入了百度，成为了百度的前端工程师。2017年新学期，我们在保留原有的已经经历过实践历练的模式下，又加入了更多的工程师导师资源，以及新的内容，希望能够帮助有志于通过技术改变生活的同学们掌握到希望学到的技术。新学期报名从即日起到3月15日，整个学期会进行到4月24日，期待大家的踊跃参加！
+		</p>
+		<img src="http://om0o8l817.bkt.clouddn.com/timg.jpg" alt="">
+		<p>由百度校园招聘组、百度校园品牌部、百度前端技术部以及多个百度的前端团队联合创办。学院组织了一批百度在职工程师，精心编写了数十个实践编码任务，将技术知识点系统有机地串联在各个充满趣味与挑战的任务中，同学们通过实际地编码练习来掌握知识，再辅以互相评价、学习笔记等方式，加深对于学习内容的理解。在过去的三年中，
+		<a href="http://ife.baidu.com/" target="_blank">百度前端技术学院http://ife.baidu.com/</a>累积吸引了上万名同学参加，并且有数十名同学在学习后，顺利加入了百度，成为了百度的前端工程师。2017年新学期，我们在保留原有的已经经历过实践历练的模式下，又加入了更多的工程师导师资源，以及新的内容，希望能够帮助有志于通过技术改变生活的同学们掌握到希望学到的技术。新学期报名从即日起到3月15日，整个学期会进行到4月24日，期待大家的踊跃参加！</p>
+	</article>
+
+	<!-- 文章二 -->
+	<article class="article2">
+		<header>
+			<hgroup>
+				<h2>mrpi的打怪升级之旅</h2>
+				<h3>小试牛刀</h3>
+			</hgroup>
+			<address>Written by <a href="#">MrPi</a></address>
+			<time datetime="2017-02-17">2017.2.27</time>
+		</header>
+		<p>2016年，错过了百度前端技术学院的报名，很遗憾。今年，2017，说什么都不能再留有遗憾了！</p>
+		<p>虽然自己不再是萌新，不再是一张白纸，但还是too young too simple。对知识也是只知半解，这种停步不前的状态，很危险，也借咱们的这个学院任务沉淀沉淀。学习，忌浮忌躁~<br>
+		百度前端技术学院是一个为大学生创办的免费的前端技术实践、分享、交流平台。由百度校园招聘组、百度校园品牌部、百度前端技术部以及多个百度的前端团队联合创办。学院组织了一批百度在职工程师，精心编写了数十个实践编码任务，将技术知识点系统有机地串联在各个充满趣味与挑战的任务中，同学们通过实际地编码练习来掌握知识，再辅以互相评价、学习笔记等方式，加深对于学习内容的理解。在过去的三年中，
+		<a href="http://ife.baidu.com/" target="_blank">百度前端技术学院http://ife.baidu.com/</a>累积吸引了上万名同学参加，并且有数十名同学在学习后，顺利加入了百度，成为了百度的前端工程师。2017年新学期，我们在保留原有的已经经历过实践历练的模式下，又加入了更多的工程师导师资源，以及新的内容，希望能够帮助有志于通过技术改变生活的同学们掌握到希望学到的技术。新学期报名从即日起到3月15日，整个学期会进行到4月24日，期待大家的踊跃参加！
+		</p>
+		<img src="http://om0o8l817.bkt.clouddn.com/timg.jpg" alt="">
+		<ul>
+			<li>html</li>
+			<li>css</li>
+			<li>javascript</li>
+		</ul>
+	</article>
+
+	<!-- 图片部分 -->
+	<article class="article3">
+		<h2>我喜欢的图片</h4>
+		<dl>
+			<dd>
+				<figure>
+					<figcaption>蓝色的心</figcaption>
+					<img src="http://om0o8l817.bkt.clouddn.com/0U42FEZTK162.jpg" alt="" width="220" height="226">
+				</figure>
+			</dd>
+			<dd>
+				<figure>
+					<figcaption>蓝色的心</figcaption>
+					<img src="http://om0o8l817.bkt.clouddn.com/0U42FEZTK162.jpg" alt="" width="220" height="226">
+				</figure>
+			</dd>
+			<dd>
+				<figure>
+					<figcaption>蓝色的心</figcaption>
+					<img src="http://om0o8l817.bkt.clouddn.com/0U42FEZTK162.jpg" alt="" width="220" height="226">
+				</figure>
+			</dd>
+			<dd>
+				<figure>
+					<figcaption>蓝色的心</figcaption>
+					<img src="http://om0o8l817.bkt.clouddn.com/0U42FEZTK162.jpg" alt="" width="220" height="226">
+				</figure>
+			</dd>
+			<dd>
+				<figure>
+					<figcaption>蓝色的心</figcaption>
+					<img src="http://om0o8l817.bkt.clouddn.com/0U42FEZTK162.jpg" alt="" width="220" height="226">
+				</figure>
+			</dd>
+			<dd>
+				<figure>
+					<figcaption>蓝色的心</figcaption>
+					<img src="http://om0o8l817.bkt.clouddn.com/0U42FEZTK162.jpg" alt="" width="220" height="226">
+				</figure>
+			</dd>
+		</dl>
+	</article>
+
+	<!-- 文章三 -->
+	<article class="article4">
+		<header>
+			<hgroup>
+				<h2>mrpi的打怪升级之旅</h2>
+				<h3>小试牛刀</h3>
+			</hgroup>
+			<address>Written by <a href="#">MrPi</a></address>
+			<time datetime="2017-02-17">2017.2.27</time>
+		</header>
+		<ol>
+			<li>排名一</li>
+			<li>排名二</li>
+			<li>排名三</li>
+		</ol>
+		<!-- 表格 -->
+		<p>这是一个表格，表格加了一个border="1"好让咱们看出来表格</p>
+		<table cellpadding="0" cellspacing="0">
+			<tr>
+				<th>姓名</th>
+				<th>性别</th>
+				<th>籍贯</th>
+			</tr>
+			<tr>
+				<td>刘备</td>
+				<td>男</td>
+				<td>蜀</td>
+			</tr>
+			<tr>
+				<td>孙权</td>
+				<td>男</td>
+				<td>吴</td>
+			</tr>
+			<tr>
+				<td>曹操</td>
+				<td>男</td>
+				<td>魏</td>
+			</tr>
+			<tr>
+				<td>成语</td>
+				<td colspan="2">三足鼎立</td>
+			</tr>
+		</table>
+	</article>
+
+</div>
+<footer>
+	Copyright 2017&copy;
+</footer>
+</body>
+</html>
